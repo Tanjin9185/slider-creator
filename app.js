@@ -88,21 +88,6 @@ const createSlider = () => {
       alt="">`;
       sliderContainer.appendChild(item)
     })
-  
-  // else{
-  //   sliders.forEach(slide => {
-  //     let item = document.createElement('div')
-  //     item.className = "slider-item";
-  //     item.innerHTML = `<img class="w-100"
-  //     src="${slide}"
-  //     alt="">`;
-  //     sliderContainer.appendChild(item)
-  //   })
-    // alert("Minimum duration time should be 500");
-    // document.querySelector('.main').style.display = 'none';
-    // getImages(search.value)
-    // break;
-  // }
 
   changeSlide(0)
   timer = setInterval(function () {
@@ -157,7 +142,6 @@ searchBtn.addEventListener('click', function () {
 sliderBtn.addEventListener('click', function () {
   createSlider()
 })
-
 
 
 const toggleSpinner = () => {
